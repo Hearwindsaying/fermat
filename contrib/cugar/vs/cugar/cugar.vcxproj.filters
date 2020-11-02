@@ -462,12 +462,10 @@
     <CudaCompile Include="..\..\bsdf\ltc_test.cu">
       <Filter>Source Files\cugar\bsdf</Filter>
     </CudaCompile>
-    <CudaCompile Include="..\..\kd\cuda\kd_test.cu">
-      <Filter>Source Files\cugar\kd\cuda</Filter>
-    </CudaCompile>
     <CudaCompile Include="..\..\bvh\cuda\lbvh_test_range_query.cu">
       <Filter>Source Files\cugar\bvh\cuda</Filter>
     </CudaCompile>
+    <CudaCompile Include="..\..\kd\cuda\kd_test.cu" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\cugar.dox">
